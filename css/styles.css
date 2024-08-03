@@ -67,6 +67,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -171,7 +172,6 @@ button {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
-  height: 56px;
   margin-left: auto;
   margin-right: auto;
   border: none;
@@ -245,7 +245,6 @@ button {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,7 +263,6 @@ button {
   flex-direction: column;
   gap: 8px;
   width: 232px;
-  height: 56px;
   margin: 0 16px;
 }
 
@@ -331,7 +329,6 @@ button {
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
   width: 360px;
-  height: 120px;
 }
 .portfolio-subtitle {
   font-weight: 500;
