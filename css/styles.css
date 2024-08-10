@@ -146,6 +146,14 @@ button {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .container-hero {
@@ -200,6 +208,22 @@ button {
 .reviews-item {
   width: 264px;
 }
+
+.reviews-box-icon {
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.reviews-icon {
+}
+
 .reviews-title {
   font-weight: 500;
   font-size: 20px;
